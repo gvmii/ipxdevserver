@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: cloud
+effect-name: cloud
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [WHITE_WOOL, WOOL]
+gui-icon-material:
+  - WHITE_WOOL
+  - WOOL

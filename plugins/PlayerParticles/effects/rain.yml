@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: rain
+effect-name: rain
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [PUFFERFISH_BUCKET, LAPIS_BLOCK]
+gui-icon-material:
+  - PUFFERFISH_BUCKET
+  - LAPIS_BLOCK

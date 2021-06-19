@@ -1,0 +1,7 @@
+locations:
+  '2':
+    world: world
+    x: 14
+    y: 5
+    z: 6
+    particle: gems

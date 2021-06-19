@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: falling_honey
+effect-name: falling_honey
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [HONEY_BOTTLE]
+gui-icon-material:
+  - HONEY_BOTTLE

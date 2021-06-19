@@ -1,0 +1,67 @@
+# The name the style will display as
+# Default: popper
+style-name: popper
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.5
+fixed-effect-offset: 0.5
+
+# The material of the icon to display in the GUI
+# Default: [POPPED_CHORUS_FRUIT, CHORUS_FRUIT_POPPED, PUMPKIN_SEEDS]
+gui-icon-material:
+  - POPPED_CHORUS_FRUIT
+  - CHORUS_FRUIT_POPPED
+  - PUMPKIN_SEEDS
+
+# The radius at the bottom of the vortex
+# Default: 1.0
+radius: 1.0
+
+# How much to change the height per particle
+# Default: 0.08
+grow: 0.08
+
+# The steepness of how fast the particles grow upwards
+# More = faster/taller growth
+# Default: 16
+radials: 16
+
+# The number of orbs spinning around the player
+# Default: 2
+helices: 2
+
+# How many steps it takes to reach the highest point
+# Default: 32
+step-amount: 32
+
+# How many particles to spawn when the highest point is reached
+# Default: 10
+pop-particle-amount: 10
+
+# How much to spread out the popped particles
+# Default: 0.5
+pop-particle-spread: 0.5
+
+# How much speed to apply to the popped particles
+# Default: 0.03
+pop-particle-speed: 0.03
+
+# How far to vertically offset the pop particles location from the player
+# Default: 1.5
+pop-particle-offset: 1.5

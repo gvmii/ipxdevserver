@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: crimson_spore
+effect-name: crimson_spore
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [CRIMSON_FUNGUS]
+gui-icon-material:
+  - CRIMSON_FUNGUS

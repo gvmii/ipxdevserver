@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: firework
+effect-name: firework
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [FIREWORK_ROCKET, FIREWORK]
+gui-icon-material:
+  - FIREWORK_ROCKET
+  - FIREWORK

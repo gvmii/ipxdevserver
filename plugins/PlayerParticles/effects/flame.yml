@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: flame
+effect-name: flame
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [BLAZE_POWDER]
+gui-icon-material:
+  - BLAZE_POWDER

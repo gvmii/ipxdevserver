@@ -1,0 +1,6 @@
+particleID: ACACIA_FENCE
+particleName: Explosion
+tillDespawn: false
+particlesPerTick: 5
+Explosion: true
+bought: {}

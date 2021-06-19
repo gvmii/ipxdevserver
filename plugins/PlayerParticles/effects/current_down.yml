@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: current_down
+effect-name: current_down
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [SOUL_SAND]
+gui-icon-material:
+  - SOUL_SAND

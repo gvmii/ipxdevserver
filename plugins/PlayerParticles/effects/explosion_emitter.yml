@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: explosion_emitter
+effect-name: explosion_emitter
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [TNT]
+gui-icon-material:
+  - TNT

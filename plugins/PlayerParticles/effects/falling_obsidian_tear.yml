@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: falling_obsidian_tear
+effect-name: falling_obsidian_tear
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [ANCIENT_DEBRIS]
+gui-icon-material:
+  - ANCIENT_DEBRIS

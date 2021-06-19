@@ -1,0 +1,40 @@
+# The name the style will display as
+# Default: spiral
+style-name: spiral
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [HOPPER]
+gui-icon-material:
+  - HOPPER
+
+# The number of particles to spawn around the player
+# Default: 12
+particles: 12
+
+# How many particles spawn before a full rotation is made
+# Default: 90
+particles-per-rotation: 90
+
+# The radius of the spiral
+# Default: 0.8
+radius: 0.8

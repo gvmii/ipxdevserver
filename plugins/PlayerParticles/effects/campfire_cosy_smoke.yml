@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: campfire_cosy_smoke
+effect-name: campfire_cosy_smoke
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [CAMPFIRE]
+gui-icon-material:
+  - CAMPFIRE

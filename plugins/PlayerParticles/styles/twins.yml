@@ -1,0 +1,45 @@
+# The name the style will display as
+# Default: twins
+style-name: twins
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [OAK_FENCE, FENCE]
+gui-icon-material:
+  - OAK_FENCE
+  - FENCE
+
+# The number of particle orbs to spawn
+# Default: 2
+orbs: 2
+
+# The radius of where to spawn the particles
+# Default: 1.0
+radius: 1.0
+
+# The number of particles that spawn to make a full horizontal rotation
+# Default: 60
+horizontal-steps: 60
+
+# The number of particles that spawn to move either up or down
+# Default: 30
+vertical-steps: 30

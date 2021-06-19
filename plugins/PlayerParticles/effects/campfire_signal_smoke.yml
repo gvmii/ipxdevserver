@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: campfire_signal_smoke
+effect-name: campfire_signal_smoke
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [REDSTONE_TORCH]
+gui-icon-material:
+  - REDSTONE_TORCH

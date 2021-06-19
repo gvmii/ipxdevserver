@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: spit
+effect-name: spit
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [LLAMA_SPAWN_EGG, PUMPKIN_SEEDS]
+gui-icon-material:
+  - LLAMA_SPAWN_EGG
+  - PUMPKIN_SEEDS

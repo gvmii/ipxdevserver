@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: fishing
+effect-name: fishing
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [FISHING_ROD]
+gui-icon-material:
+  - FISHING_ROD

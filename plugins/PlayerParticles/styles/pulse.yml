@@ -1,0 +1,49 @@
+# The name the style will display as
+# Default: pulse
+style-name: pulse
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.5
+fixed-effect-offset: 0.5
+
+# The material of the icon to display in the GUI
+# Default: [REDSTONE_TORCH, REDSTONE_TORCH_ON]
+gui-icon-material:
+  - REDSTONE_TORCH
+  - REDSTONE_TORCH_ON
+
+# The number of points to spawn in the pulse circle
+# Default: 50
+points: 50
+
+# The radius of the pulse circle
+# Default: 0.5
+radius: 0.5
+
+# The amount to vertically offset from the player location
+# Default: -0.9
+offset: -0.9
+
+# How many ticks to wait between pulses
+# Default: 15
+delay: 15
+
+# A multiplier to change how fast the particles shoot away
+# Default: 1
+speed-multiplier: 1

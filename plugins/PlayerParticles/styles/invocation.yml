@@ -1,0 +1,49 @@
+# The name the style will display as
+# Default: invocation
+style-name: invocation
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.5
+fixed-effect-offset: 0.5
+
+# The material of the icon to display in the GUI
+# Default: [ENDER_EYE, EYE_OF_ENDER]
+gui-icon-material:
+  - ENDER_EYE
+  - EYE_OF_ENDER
+
+# The number of points that spin around the circle in each direction
+# Default: 6
+spinning-points: 6
+
+# The radius of the circle
+# Default: 3.5
+radius: 3.5
+
+# The number of points around the circle
+# Default: 120
+circle-points: 120
+
+# How far to vertically offset the player's location
+# Default: -0.9
+player-offset: -0.9
+
+# A multiplier to change how fast the particles move
+# Default: 1
+speed-multiplier: 1

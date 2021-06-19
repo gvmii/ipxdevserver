@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dripping_obsidian_tear
+effect-name: dripping_obsidian_tear
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [CRYING_OBSIDIAN]
+gui-icon-material:
+  - CRYING_OBSIDIAN

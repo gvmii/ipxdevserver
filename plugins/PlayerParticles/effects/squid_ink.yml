@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: squid_ink
+effect-name: squid_ink
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [INK_SAC]
+gui-icon-material:
+  - INK_SAC

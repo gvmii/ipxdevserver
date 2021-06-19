@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: crit
+effect-name: crit
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [IRON_SWORD]
+gui-icon-material:
+  - IRON_SWORD

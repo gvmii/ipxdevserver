@@ -1,0 +1,36 @@
+# The name the style will display as
+# Default: outline
+style-name: outline
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [GLASS]
+gui-icon-material:
+  - GLASS
+
+# The distance between individual particles
+# Default: 0.15
+particle-distance: 0.15
+
+# The number of ticks between spawns
+# Default: 3
+spawn-delay: 3

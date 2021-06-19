@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: heart
+effect-name: heart
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [POPPY, RED_ROSE]
+gui-icon-material:
+  - POPPY
+  - RED_ROSE

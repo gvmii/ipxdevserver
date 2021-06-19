@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: dragon_breath
+effect-name: dragon_breath
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [DRAGON_BREATH, DRAGONS_BREATH]
+gui-icon-material:
+  - DRAGON_BREATH
+  - DRAGONS_BREATH

@@ -1,0 +1,31 @@
+
+#                                               #
+#   CustomArrowTrails | Permissions Reference   #
+#                  By Redraskal                 #
+#                                               #
+
+
+# Below are a list of all the permissions usable
+# in this plugin.
+permissions:
+  arrowtrail.*:                           # Wildcards are supported in this plugin.
+    children:
+      arrowtrail.effect.*: true           # Having this permission allows the player to enable all the available effects.
+      arrowtrail.effect.<effect>: true    # Having this permission allows the player to enable the specified effect.
+      arrowtrail.force: true              # Having this permission allows the user to forcefully enable/disable effects.
+      arrowtrail.disable: true            # Having this permission allows the player to disable their effect.
+      arrowtrail.list: true               # Having this permission allows the user to get a list of available effects.
+      arrowtrail.reload: true             # Having this permission allows the user to reload the data file.
+    default: op                           # This permission is not allowed by default.
+  arrowtrail.effect.*:
+    default: op                           # This permission is not allowed by default.
+  arrowtrail.effect.<effect>:
+    default: op                           # This permission is not allowed by default.
+  arrowtrail.force:
+    default: op                           # This permission is not allowed by default.
+  arrowtrail.disable:
+    default: true                         # This permission is allowed by default.
+  arrowtrail.list:
+    default: true                         # This permission is allowed by default.
+  arrowtrail.reload:
+    default: op                           # This permission is not allowed by default.

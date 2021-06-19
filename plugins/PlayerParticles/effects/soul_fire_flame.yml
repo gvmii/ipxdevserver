@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: soul_fire_flame
+effect-name: soul_fire_flame
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [SOUL_CAMPFIRE]
+gui-icon-material:
+  - SOUL_CAMPFIRE

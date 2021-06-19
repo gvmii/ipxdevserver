@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: item_slime
+effect-name: item_slime
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [SLIME_BALL]
+gui-icon-material:
+  - SLIME_BALL

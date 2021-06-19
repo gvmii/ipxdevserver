@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: warped_spore
+effect-name: warped_spore
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [WARPED_FUNGUS]
+gui-icon-material:
+  - WARPED_FUNGUS

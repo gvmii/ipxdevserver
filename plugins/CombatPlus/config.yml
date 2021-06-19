@@ -1,0 +1,268 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                           Combat Plus                                        |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           Author: Nik                                        |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+# General plugin settings
+settings:
+
+  # Would you like to check for updates on startup?
+  check_for_updates: true
+
+  # Would you like to receive additional information in-game when an Event gets triggered? (Debug)
+  # This is very useful if you'd like to Report a bug to me via our Discord
+  developer_mode: false
+
+# Combat related settings
+combat:
+
+  # Would you like your server to use the Old PvP?
+  old_pvp: true
+
+  # Would you like to use 1.8 Sword Damages?
+  old_weapon_damage: true
+
+  # Would you like to use 1.8 Tool Damages?
+  old_tool_damage: true
+
+  # Would you like to use 1.8 Sharpness Damage?
+  old_sharpness: true
+
+  # Sweep attack properties
+  disable_sweep_attacks:
+
+    # Should we enable this?
+    enabled: true
+
+    # Would you like to ignore cancelling the Sweep Attacks if The Player's Item has the Enchantment: Sweeping Edge?
+    ignore_sweeping_edge: false
+
+  # Would you like to prevent players from boosting themselves by using Arrows?
+  disable_arrow_boost: true
+
+  # Would you like to use 1.8 Regeneration?
+  old_player_regen: true
+
+  # Sword blocking properties
+  sword_blocking:
+
+    # Would you like players to get a Resistance and a Slowness Effect if they hold Right Click?
+    enabled: true
+
+    # Should we ignore it if the player is holding a shield?
+    ignore_shields: true
+
+    # Should we cancel the player's sprinting?
+    cancel_sprinting: false
+
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+    effect: DAMAGE_RESISTANCE
+
+    # The duration in ticks (20 ticks = one second)
+    duration_ticks: 8
+
+    # The effect amplifier
+    amplifier: 0
+
+    # The slow duration in ticks (20 ticks = one second)
+    slow_duration_ticks: 8
+
+    # The slow amplifier
+    slow_amplifier: 2
+
+  # Worlds listed below will be ignored from applying the above features
+  disabled_worlds:
+    - world
+
+# Cooldown Properties
+cooldowns:
+
+  # Golden Apple Cooldown
+  golden_apple:
+
+    # Should we enable this?
+    enabled: true
+
+    # Cooldown in seconds
+    cooldown: 20
+
+    # Should the cooldown get sent in an Actionbar Message?
+    actionbar: true
+
+    # Worlds listed below will be ignored from applying the above features
+    disabled_worlds:
+      - world
+
+  # Enchanted Golden Apple Cooldown
+  enchanted_golden_apple:
+
+    # Should we enable this?
+    enabled: true
+
+    # Cooldown in seconds
+    cooldown: 20
+
+    # Should the cooldown be sent in an Actionbar Message?
+    actionbar: true
+
+    # Worlds listed below will be ignored from applying the above features
+    disabled_worlds:
+      - world
+
+  # Enderpearl Cooldown
+  enderpearl:
+
+    # Should we enable this?
+    enabled: true
+
+    # Cooldown in seconds
+    cooldown: 10
+
+    # Should the cooldown be sent in an Actionbar Message?
+    actionbar: true
+
+    # Worlds listed below will be ignored from applying the above features
+    disabled_worlds:
+      - world
+
+# Fishing rod knockback properties
+fishing_rod_knockback:
+
+  # Should we enable this?
+  enabled: true
+
+  # Should we disable the Fishing Rod dragging?
+  cancel_dragging: true
+
+# Disabled items properties
+disabled_items:
+
+  # Should we enable this?
+  enabled: false
+
+  # Items listed below will be disabled from being crafted
+  items:
+    - item_frame
+    - armor_stand
+
+# Offhand properties
+disable_offhand:
+
+  # Should we enable this?
+  enabled: false
+
+  # Worlds listed below will be ignored from applying the above features
+  disabled_worlds:
+    - world
+
+# Should we make Enchanted Golden Apples craftable again?
+enchanted_golden_apple_crafting: false
+
+# Healthbar Properties
+healthbar:
+
+  # Would you like Combat Plus to send an Actionbar message to the Attacker indicating the Target's Health and Damage Dealt?
+  enabled: true
+
+  # Worlds listed below will be ignored from applying the above features
+  disabled_worlds:
+    - world
+
+# CombatLog Properties
+combatlog:
+
+  # Would you like to enable the Combat Log?
+  enabled: true
+
+  # How long should players be tagged? (In seconds)
+  cooldown: 15
+
+  # Should players get tagged when fighting Mobs?
+  mobs: false
+
+  # Should players get tagged if they shoot players with projectiles?
+  projectiles: true
+
+  # Should Combat Plus send an Actionbar message to the player?
+  actionbar: true
+
+  # Should Combat Plus broadcast when a player dies due to logging out when tagged?
+  broadcast: true
+
+  # Should we disable the tagged player's flight?
+  disable_fly: true
+
+  # Should we prevent tagged players from Teleporting?
+  prevent_teleportations: true
+
+  # Should we prevent tagged players from Dropping Items?
+  prevent_dropping_items: true
+
+  # Should we prevent tagged players from Picking Up Items?
+  prevent_picking_items: true
+
+  # CombatLog Command Properties
+  commands:
+
+    # Should we prevent tagged players from Using Commands?
+    enabled: true
+
+    # Commands listed below will not be blocked from tagged players
+    excluded:
+      - /heal
+      - /feed
+
+# Player health properties
+custom_player_health:
+
+  # Should we enable this?
+  enabled: false
+
+  # The max health that a player should have
+  max_health: 20
+
+# Advanced Settings, Do not touch unless you know what you're doing
+advanced_settings:
+  old_attack_speed: 24
+  new_attack_speed: 4
+  modifiers:
+    netherite_sword: 1
+    diamond_sword: 1
+    golden_sword: 1
+    iron_sword: 1
+    stone_sword: 1
+    wooden_sword: 1
+    netherite_shovel: 0.5
+    diamond_shovel: 0.5
+    golden_shovel: 0.5
+    iron_shovel: 0.5
+    stone_shovel: 0.5
+    wooden_shovel: 0.5
+    netherite_axe: -2
+    diamond_axe: -2
+    golden_axe: -2
+    iron_axe: -2
+    stone_axe: -2
+    wooden_axe: -2
+    netherite_pickaxe: 1
+    diamond_pickaxe: 1
+    golden_pickaxe: 1
+    iron_pickaxe: 1
+    stone_pickaxe: 1
+    wooden_pickaxe: 1
+    netherite_hoe: 0
+    diamond_hoe: 0
+    golden_hoe: 0
+    iron_hoe: 0
+    stone_hoe: 0
+    wooden_hoe: 0
+  old_regen:
+    frequency: 3
+    amount: 1
+    exhaustion: 3
+  base_player_health: 20
+  fishing_rod_knockback_damage: 0.01

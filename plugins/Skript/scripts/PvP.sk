@@ -1,0 +1,37 @@
+# Made by https://github.com/Ixogamer | Time taken: 5h  | Nano Wallet: https://www.3words.link/ixo
+# Players can type /pvp to disable pvp for themselves only. Other players will only be able to attack that person if he has his pvp status on. Players with pvp status off can also not attack other people, even if their pvp status is on.
+command /pvp <player=%sender%>:
+	permission: pvptoggle.use
+	permission message: "&cYou are not allowed to use this command!"
+	cooldown: 1 seconds
+	trigger:
+		if arg-1 = sender:
+			if (metadata tag "pvptoggle" of player) is false:
+				set metadata tag "pvptoggle" of player to true
+				send "&eYour pvp status is &aenabled.&e You can attack other players that have PvP enabled." to arg-1
+			else:
+				set metadata tag "pvptoggle" of player to false
+				send "&eYour pvp status is &cdisabled.&e You won't be able to attack other players, and vice-versa." to arg-1
+		else:
+			if player doesn't have permission "pvptoggle.admin":
+				send "&cNo tienes permiso para cambiar el estado de PvP de otros jugadores."
+				stop trigger
+			else:
+				if (metadata tag "pvptoggle" of player) is false:
+					set metadata tag "pvptoggle" of player to true
+					send "&eYour pvp status is &aenabled.&e You can attack other players that have PvP enabled." to arg-1
+				else:
+					set metadata tag "pvptoggle" of player to false
+					send "&eYour pvp status is &cdisabled.&e You won't be able to attack other players, and vice-versa." to arg-1
+
+on join:
+	set metadata tag "pvptoggle" of player to true
+	send "&eYour pvp status is &aenabled.&e You can attack other players that have PvP enabled."
+on damage of player:
+	if attacker is a player:
+		if (metadata tag "pvptoggle" of attacker) is false:
+			cancel event
+			send "&eTo attack other players, use &a/pvp&e!" to attacker
+		else if (metadata tag "pvptoggle" of victim) is false:
+			cancel event
+			send "&eThis player has PvP &cdisabled!" to attacker

@@ -1,0 +1,50 @@
+# The name the style will display as
+# Default: arrows
+style-name: arrows
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: false
+can-be-fixed: false
+
+# If the style will only be shown at the player's feet while moving
+# Default: false
+can-toggle-with-movement: false
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 0.0
+fixed-effect-offset: 0.0
+
+# The material of the icon to display in the GUI
+# Default: [BOW]
+gui-icon-material:
+  - BOW
+
+particle-amount: 128
+
+# The max number of arrows that will spawn particles per player
+# Default: 10
+max-arrows-per-player: 10
+
+# Only spawn particles while the arrow is still in the air
+# Default: false
+only-spawn-if-flying: false
+
+# The name of the projectile entities that are counted as arrows
+# Default: [ARROW, SPECTRAL_ARROW, TIPPED_ARROW]
+arrow-entities:
+  - ARROW
+  - SPECTRAL_ARROW
+  - TIPPED_ARROW
+
+# The maximum number of ticks to track an arrow for
+# Set to -1 to disable (not recommended)
+# Default: 1200
+arrow-tracking-time: 1200

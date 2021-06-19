@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: ambient_entity_effect
+effect-name: ambient_entity_effect
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [BEACON]
+gui-icon-material:
+  - BEACON

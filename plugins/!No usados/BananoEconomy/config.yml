@@ -1,0 +1,10 @@
+# 
+# Don't touch walletID unless you know what you're doing
+IP: https://104.21.76.24:447
+walletSeed: 9F8855B16116039B670670C8F69E9EB1EE1ECD7C0013ED03DC102C0228087458
+walletID: INSERT WALLET ID FROM NODE HERE
+mongoURI: mongodb+srv://Ixo:contraseña1234@ipxcraft.1qekw.mongodb.net/BananoCraft?retryWrites=true&w=majority
+multiplier: '100000000000000000000000000000'
+exploreaccount: https://creeper.banano.cc/explorer/account/
+exploreblock: https://creeper.banano.cc/explorer/block/
+masterWallet: Account Creation Failed

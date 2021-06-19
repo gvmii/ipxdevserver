@@ -1,0 +1,52 @@
+# BetterBowTrails plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
+# Please give me credit, I'm a first time coder, and would love to see more discussions on my Spigot page! #
+
+Settings:
+  UseGUI: true
+  TickDelay: 1
+  DisabledWorlds:
+  - world_nether
+  - world_the_end
+  MaxGlobalTrails: 1028
+  DisableUpdater: false
+Player:
+  MaxTrails: 8
+  Donator:
+    MaxTrails: 16
+Defaults:
+  ParticleTrail: redstone_block
+  ParticleName: '&c&lRedstone Block'
+  tillDespawn: false
+  ParticlesPerTick: 5
+  Explosion: true
+Economy:
+  Enabled: false
+  BoughtTrailsEnabled: true
+  Default:
+    Enabled: true
+    Price: 30
+  Lore:
+  - ''
+  - '&7Right-Click to Buy!'
+  - '&cPrice&7: &a$%price%'
+  Confirm:
+    Enabled: true
+    Title: '&lBetterBowTrails | Buy'
+    Rows: 3
+    Accept:
+      Name: '&a&lConfirm'
+      Item: wool:5
+      Slot: 12
+      Lore:
+      - ''
+      - '&7Click to confirm purchase'
+      - '&7of %particle% or %particleName%'
+      - ''
+      - '&cPrice&7: &a$%price%'
+    Deny:
+      Name: '&c&lCancel'
+      Item: wool:14
+      Slot: 14
+      Lore:
+      - ''
+      - '&7Click to cancel transaction'

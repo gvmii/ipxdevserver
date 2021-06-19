@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: falling_lava
+effect-name: falling_lava
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [RED_DYE]
+gui-icon-material:
+  - RED_DYE

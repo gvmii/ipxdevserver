@@ -1,0 +1,47 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                           Combat Plus                                        |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           Author: Nik                                        |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+prefix: '&f&l[&cCombat+&f&l]&f: '
+no_perm: '&cYou do not have permission to do that!'
+reloaded: '&fYou have successfully reloaded the plugin!'
+update_reminder: '&6There is a new version available, Your version &a%current%&6 new
+  version &a%new%'
+golden_apple_cooldown: '&fYou cannot eat a Golden Apple yet, You must wait %seconds%
+  seconds.'
+golden_apple_cooldown_actionbar: '&6You can eat a Golden Apple again in &a%seconds%
+  &6seconds.'
+enchanted_golden_apple_cooldown: '&fYou cannot eat an Enchanted Golden Apple yet,
+  You must wait %seconds% seconds.'
+enchanted_golden_apple_cooldown_actionbar: '&6You can eat an Enchanted Golden Apple
+  again in &a%seconds% &6seconds.'
+enderpearl_cooldown: '&fYou cannot use an Ender Pearl yet, You must wait %seconds%
+  seconds.'
+enderpearl_cooldown_actionbar: '&6You can use an Ender Pearl again in &a%seconds%
+  &6seconds.'
+cannot_craft_this: '&cYou cannot craft this item!'
+combatlog_tagged: '&fYou are now in combat, Do not log out!'
+combatlog_untagged: '&fYou can now log out!'
+combatlog_actionbar: '&f&l[&cCombat+&f&l]&f: You are tagged for %seconds% seconds'
+combatlog_broadcast: '&f%player% Died due to logging out while in combat'
+combatlog_item_drop: '&cYou can not drop items while in combat!'
+combatlog_teleport: '&cYou can not teleport while in combat!'
+combatlog_command: '&cYou can not use this command while in combat!'
+gui_main: '&c&lCombatPlus Menu'
+gui_plugin: '&c&lPlugin Settings'
+gui_combat: '&c&lCombat Settings'
+gui_general: '&c&lGeneral Settings'
+console_update_not_found: '&6&lNo updates are found, You''re running the Latest Version
+  <3'
+console_update_disabled: '&f&lUpdate Checker is Disabled, Skipping.'
+console_commands: '&c&lYou cannot run this command through the console :('
+console_unsupported_version: '&c&lWARNING! You Are Using an Unsupported Version, Some
+  Modules Have Been Skipped.'
+console_unsupported_sweep_attack: '&c&lSweep Attacks Cannot be Disabled on your Minecraft
+  Version, Skipping.'

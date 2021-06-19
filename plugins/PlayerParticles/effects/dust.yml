@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dust
+effect-name: dust
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [REDSTONE]
+gui-icon-material:
+  - REDSTONE

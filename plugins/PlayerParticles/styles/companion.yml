@@ -1,0 +1,64 @@
+# The name the style will display as
+# Default: companion
+style-name: companion
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: false
+can-toggle-with-movement: false
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: 1.0
+fixed-effect-offset: 1.0
+
+# The material of the icon to display in the GUI
+# Default: [NAME_TAG]
+gui-icon-material:
+  - NAME_TAG
+
+# The number of total particles in the animation cycle
+# Default: 150
+particle-amount: 150
+
+# The number of particles spawned per iteration
+# Default: 5
+particles-per-iteration: 5
+
+# The size of the animation
+# Default: 1.25
+size: 1.25
+
+# The multiplier for the x-axis
+# Default: 1.0
+x-factor: 1.0
+
+# The multiplier for the y-axis
+# Default: 1.5
+y-factor: 1.5
+
+# The multiplier for the z-axis
+# Default: 1.0
+z-factor: 1.0
+
+# The offset for the x-axis
+# Default: 0.0
+x-offset: 0.0
+
+# The offset for the y-axis
+# Default: -0.75
+y-offset: -0.75
+
+# The offset for the x-axis
+# Default: 0.0
+z-offset: 0.0

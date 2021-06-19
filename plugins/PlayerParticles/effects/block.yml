@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: block
+effect-name: block
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [STONE]
+gui-icon-material:
+  - STONE

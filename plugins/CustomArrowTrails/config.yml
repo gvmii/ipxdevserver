@@ -1,0 +1,28 @@
+
+
+#                                            #
+#   CustomArrowTrails | Main Configuration   #
+#                 By Redraskal               #
+#                                            #
+
+
+# Toggles whether the plugin should remove
+# the default arrow trail if one is not enabled.
+remove-default-trail: false
+
+# Sets the range (in blocks) for the arrow trail particles.
+# EDIT: Removed in 1.13?
+arrow-trail-range: 64
+
+# Sets the tick rate (20 ticks per second) for the arrow trail particles.
+arrow-trail-tick-rate: 1
+
+
+#
+#   Thanks for downloading!
+#     Make sure to leave a review on the plugin,
+#     and feel free to contact me in a DM or on the resource thread
+#     about any bugs or features you would like fixed/implemented!
+#
+#         ◎[▪‿▪]◎
+#

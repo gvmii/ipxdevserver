@@ -1,0 +1,12 @@
+# The name the effect will display as
+# Default: poof
+effect-name: poof
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [FIREWORK_STAR, FIREWORK_CHARGE]
+gui-icon-material:
+  - FIREWORK_STAR
+  - FIREWORK_CHARGE

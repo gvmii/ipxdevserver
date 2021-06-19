@@ -1,0 +1,40 @@
+# The name the style will display as
+# Default: spin
+style-name: spin
+
+# If the style is enabled or not
+# Default: true
+enabled: true
+
+# If the style can be used in /pp fixed
+# Default: true
+can-be-fixed: true
+
+# If the style will only be shown at the player's feet while moving
+# Default: true
+can-toggle-with-movement: true
+
+# If particles for this style will be hidden if the player is in combat
+# Default: true
+can-toggle-with-combat: true
+
+# How far vertically to offset the style position for fixed effects
+# Default: -0.5
+fixed-effect-offset: -0.5
+
+# The material of the icon to display in the GUI
+# Default: [BEACON]
+gui-icon-material:
+  - BEACON
+
+# The number of particles to spawn per rotation
+# Default: 30
+particles-per-rotation: 30
+
+# The radius of the circle
+# Default: 0.5
+radius: 0.5
+
+# The amount to vertically offset the player location
+# Default: 1.5
+offset: 1.5
