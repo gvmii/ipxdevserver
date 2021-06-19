@@ -1,3 +1,4 @@
 #Ignorar historial de consola
 .console_history
 logs
+cache/patched_1.16.5.jar

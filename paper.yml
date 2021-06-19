@@ -61,7 +61,16 @@ settings:
   console:
     enable-brigadier-highlighting: true
     enable-brigadier-completions: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
 timings:
+  really-enabled: false
   enabled: false
   verbose: true
   server-name-privacy: false
@@ -87,6 +96,7 @@ messages:
     flying-vehicle: Flying is not enabled on this server
 world-settings:
   default:
+    seed-based-feature-search-loads-chunks: false
     delay-chunk-unloads-by: 10s
     non-player-arrow-despawn-rate: -1
     creative-arrow-despawn-rate: -1
@@ -258,3 +268,11 @@ world-settings:
         COBBLESTONE: 300
     generator-settings:
       flat-bedrock: false
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1
