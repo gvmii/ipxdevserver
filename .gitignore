@@ -1,0 +1,3 @@
+#Ignorar historial de consola
+.console_history
+logs
