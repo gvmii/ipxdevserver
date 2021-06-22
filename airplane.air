@@ -22,6 +22,7 @@
   # If you want further away entities to tick less often, use 7.
   # If you want further away entities to tick more often, try 9.
   activation-dist-mod = 8
+  enabled = true
 
 # A list of entities to use the dynamic activation range
 # to modify how often their behaviors are ticked
@@ -33,6 +34,10 @@
 # Settings for things that don't belong elsewhere
 [misc]
   disable-method-profiler = true
+  # When an item is inside a block, it gets pushed up.
+  # This option when true makes the check simpler,
+  # ignoring entities and complex collisions like pistons.
+  simpler-item-collision = false
 
 # Configures Flare, the built-in profiler
 [flare]

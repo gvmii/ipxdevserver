@@ -1,0 +1,5 @@
+# Made by https://github.com/Ixogamer | Time taken: 1m  | Nano Wallet: https://www.3words.link/ixo
+
+on shoot:
+	event-projectile is an arrow	
+	set projectile critical mode of event-projectile to false
