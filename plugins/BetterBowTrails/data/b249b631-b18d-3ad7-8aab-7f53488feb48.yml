@@ -1,6 +1,0 @@
-particleID: villager_happy
-particleName: '&e&lHappy'
-tillDespawn: false
-particlesPerTick: 5
-Explosion: true
-bought: {}
