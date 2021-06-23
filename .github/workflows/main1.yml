@@ -36,5 +36,5 @@ jobs:
           echo Comenzando test...
           ./start.bat
           sleep -Seconds 15
-          stop
+          echo stop
           
