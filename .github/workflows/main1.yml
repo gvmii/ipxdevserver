@@ -35,6 +35,32 @@ jobs:
         run: |
           echo Comenzando test...
           ./start.bat
-          sleep -Seconds 15
           echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          echo stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
+          stop
           
