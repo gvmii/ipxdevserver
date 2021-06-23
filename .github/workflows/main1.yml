@@ -33,7 +33,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Correr server de MC
         run: |
-          echo test
+          echo Comenzando test...
           ./start.bat
-          sleep -Seconds 10
+          sleep -Seconds 15
+          stop
           
