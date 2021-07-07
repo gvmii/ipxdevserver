@@ -1,0 +1,17 @@
+consumables-menu-item: '260'
+consumables-menu-name: '&cConsumibles'
+consumables-menu-lore:
+  - '&8Categoria'
+  - ''
+  - '&7Ejemplos:'
+  - '&8■ &7Pociones'
+  - '&8■ &7comida'
+  - '&8■ &7Libros'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lEjemplo &6&larticulo'
+
+custom-item-ids:
+  - '2266'

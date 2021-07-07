@@ -1,0 +1,145 @@
+bids-menu-name: '&8Vista de subasta'
+
+bid-history-item: '358:0'
+bid-history-item-name: '&fHistorial de pujas'
+bid-history-item-lore:
+  no-bids:
+    - '&7No se han realizado ofertas en'
+    - '&7este articulo todavia.'
+    - ''
+    - '&7Se el primero enpujar!'
+  #The lore of the bid history item is dynamic when
+  #it has bids on it, the structure below repeats itself
+  #at every new bid, adding to the lore
+  #Use %bid-amount% for the amount of the bid
+  #Use %bidder-display-name% for bidder's display name
+  #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
+  bid-structure:
+    - '&8&m--------------'
+    - '&7Puja: &6%bid-amount% monedas'
+    - '&7De: %bidder-display-name%'
+    - '&b%when-bidded% Antes'
+
+#This is the message items with "Ending soon" will give when clicked
+too-late-to-open-now: '&cEs muy tarde para habrir esto ahora!'
+
+#When the auction is claimed by the seller, the bid history
+#no longer updates %when-bidded% and the message below is added
+#to the bid history item lore
+#Use %date% for the date of the last updated
+bid-history-last-updated-message: '&8Ultima actualizacion en %date%'
+
+submit-bid-cannot-afford-item: '394'
+#Use %bid-amount% for the needed amount (that the player does not have)
+submit-bid-cannot-afford-item-name: '&6Enviar oferta'
+submit-bid-cannot-afford-item-lore:
+  - ''
+  - '&7Nueva oferta: &6%bid-amount% monedas'
+  - ''
+  - '&cNo puedes pagar la oferta!'
+
+submit-bid-item: '371'
+submit-bid-item-name: '&6Enviar oferta'
+submit-bid-item-lore:
+  no-previous-bids:
+    - ''
+    - '&7Nueva oferta: &6%bid-amount% monedas'
+    - ''
+    - '&eClick para ofertar!'
+  #Use %bid-amount% for the amount the bid will have
+  #Use %previous-bid% for the previous bid's amount
+  #Use %coins-to-pay% for the difference between previous bid and actual bid
+  with-previous-bids:
+    - ''
+    - '&7Nueva oferta: &6%bid-amount% monedas'
+    - '&7Previous Bid: &e%previous-bid% monedas'
+    - ''
+    - '&7Tu pagas: &6%coins-to-pay% monedas'
+    - ''
+    - '&eHaga click para ofertar!'
+
+collect-bid-item: '41'
+collect-bid-item-name: '&6Cobrar subasta'
+collect-bid-item-lore:
+  #Use %coins% for the amount of coins the player could collect
+  collect-coins:
+    - ''
+    - '&7Tienes &6%coins% monedas'
+    - '&7que recolectar de esta'
+    - '&7subasta.'
+    - ''
+    - '&eClick para recolectar!'
+  collect-item:
+    - ''
+    - '&7tienes articulos que recolectar'
+    - '&7de esta puja'
+    - ''
+    - '&eClick para recolectar!'
+
+#What amount of the previous bid is needed for a new bid
+#Default Example: to bid over a 100 coins bid you need '100 + 15% from 100' minimum
+#If you remove the % it will just take 15 coins instead of a percent
+bid-step: '15%'
+
+#When a bid is lower than this amount
+#the next bid will jump here
+#Set it to 0 to disable it but make sure you know
+#how to handle it
+bid-jump: 20
+
+edit-bid-item: '266'
+#Use %current-bid% for the amount the player has selected to bid
+edit-bid-item-name: '&fImporte de la oferta: &6%current-bid% monedas'
+#Use %minimum-bid% for the minimum amount you have to bid on the auction
+edit-bid-item-lore:
+  - '&7Necesitas pujar al menos'
+  - '&6%minimum-bid% monedas &7para ponerte en la cima'
+  - '&7de esta puja.'
+  - ''
+  - '&7la &emejor oferta&7 de puja'
+  - '&7finaliza por ganar el articulo.'
+  - ''
+  - '&7Si no ganas puedes'
+  - '&7reclamar tus monedas de vuelta.'
+  - ''
+  - '&eHaz clic para editar la cantidad!'
+
+#The sign used for editing has the same text
+#as the starting bid on auction creator
+
+#Message for when you try to edit the bid with a value smaller than needed
+edit-bid-deny-message: '&cTu oferta es demasiado baja.'
+
+#Message for when the bid is placed successfully
+placed-bid-message: '&aSu oferta se realizó con éxito!'
+
+#Message for when you have 28 bids (reached the limit)
+max-bids-reached: '&cPuedes tener un máximo de 28 ofertas en diferentes subastas al mismo tiempo.'
+
+#Message sent to players when they get outbidded
+#Use %outbid-player-display-name% for the name of the outbidder
+#Use %top-bid% for the new top bid
+#Use %bid-item% for the name of the item
+outbid-message:
+  - '&6[Auction] &fTe sobrepujaron %outbid-player-display-name%&f en %bid-item%&f.'
+  - '&fLa nueva mejor oferta &6%top-bid% monedas&f. &e&lCLICK PARA VERLA'
+
+#Message sent to the seller when someone bids on their auction
+#Use %bidder% for bidder's display name
+#Use %bid-amount% for the bidded amount
+#Use %bid-item% for the name of the item
+bid-message: '&6[Auction] %bidder% &fponer una oferta de &6%bid-amount% monedas &fen tu %bid-item%&f!'
+
+not-enough-money-bid: '&cNo tienes suficiente dinero para pujar esta cantidad.'
+
+#This message is added to the lore of some items
+#to let the player know it is their own auction
+own-auction-message: '&aEsta es tu propia puja!'
+
+#To prevent a bug where two players bid the same amount
+#on the same auction (that happening when 2 players have the same view auction menu opened
+#at the same time) this message will be sent to the player if the value they try to submit
+#is already in there
+bid-error-message:
+  - '&c[Auction Error] &fMientras estabas pensando en ofertar hay alguien que ya lo hizo.'
+  - '&cRabriendo el menu...'
