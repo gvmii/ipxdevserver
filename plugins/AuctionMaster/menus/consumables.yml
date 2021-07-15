@@ -1,11 +1,11 @@
 consumables-menu-item: '260'
 consumables-menu-name: '&cConsumibles'
 consumables-menu-lore:
-  - '&8Categoria'
+  - '&8Categoría'
   - ''
   - '&7Ejemplos:'
   - '&8■ &7Pociones'
-  - '&8■ &7comida'
+  - '&8■ &7Comida'
   - '&8■ &7Libros'
 
 #If you have custom items that you want to be in this

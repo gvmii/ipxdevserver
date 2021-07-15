@@ -16,7 +16,7 @@ buy-it-now-select-price:
     - ''
     - '&7Suplemento: &6+%fee% coins &e(1%)'
     - ''
-    - '&eClick para editar!'
+    - '&e¡Click para editar!'
 
 #Use percents from 1 to 100
 buy-it-now-fee: 1
@@ -30,19 +30,19 @@ switch-button:
       - '&7varios compradores compiten por el'
       - '&7artículo haciendo una oferta turno a turno.'
       - ''
-      - '&eClick para cambiar!'
+      - '&e¡Click para cambiar!'
   switch-to-bin:
     material: 27
     name: '&aCambiar a CPA'
     lore:
-      - '&7Pujas de CPA son simples.'
+      - '&7Subastas de CPA son simples.'
       - ''
-      - '&7Estableze un precio, entonces un jugador puede'
+      - '&7Establece un precio, entonces un jugador puede'
       - '&7Comprar el item a ese precio.'
       - ''
       - '&8(CPA significa comprar ahora)'
       - ''
-      - '&eClick para cambiar!'
+      - '&e¡Click para cambiar!'
 
 buy-it-now-lore:
   on-going:
@@ -52,34 +52,34 @@ buy-it-now-lore:
     - ''
     - '&7Acaba en: &e%duration%'
     - ''
-    - '&eClick para inspeccionar!'
+    - '&e¡Click para inspeccionar!'
   expired:
     - '&8&m---------------------'
     - '&7Vendedor: %display-name-seller%'
     - '&7Compralo ahora: &6%price% coins'
     - ''
-    - '&7Estado: &cCaducado!'
+    - '&7Estado: &c¡Caducado!'
     - ''
-    - '&eClick para inspeccionar!'
+    - '&e¡Click para inspeccionar!'
   #Use %buyer-display-name% for buyer's display name
   #Use %buyer-name% for buyer's username
   bought:
     - '&8&m---------------------'
     - '&7Vendedor: %display-name-seller%'
-    - '&7Precio: &6%price% coins'
+    - '&7Precio: &6%price%'
     - ''
     - '&7Comprado por: %buyer-display-name%'
     - ''
-    - '&eClick para inspeccionar!'
+    - '&e¡Click para inspeccionar!'
 
 #Use %item% for item's display name
 #Use %seller-display-name% for seller display's name
 #Use %seller-name% for seller's name
 #Use %coins% for the amount of coins the item was bought for
-bought-item-message: '&eHas comprado &f%item% &ede %seller-display-name% &epor &6%coins% Monedas&e!'
+bought-item-message: '&eHas comprado &f%item% &ede %seller-display-name% &epor &6%coins%&e!'
 
 #Seller notification for bought item
-bought-seller-notification: '&6[Auction] %bidder-display-name% &fha comprado tu  %item%&f por &6%price% monedas&f!'
+bought-seller-notification: '&6[Auction] %bidder-display-name% &fha comprado tu  %item%&f por &6%price%&f!'
 
 sort-item:
   material: '381'
@@ -87,7 +87,7 @@ sort-item:
   show-all: 'Mostrar todo'
   bin-only: 'CPA solo'
   auctions-only: 'Subastas solo'
-  click-to-switch: '&eClick para cambiar el filtro!'
+  click-to-switch: '&e¡Click para cambiar el filtro!'
 
 view-auction-buy-now-button:
   name: '&6Comprar articulo ahora'
@@ -95,13 +95,13 @@ view-auction-buy-now-button:
     material: '371'
     lore:
       - ''
-      - '&7Precio: &6%price% monedas'
+      - '&7Precio: &6%price%'
       - ''
-      - '&eClick para comprar!'
+      - '&e¡Click para comprar!'
   cannot-afford:
     material: '394'
     lore:
       - ''
-      - '&7Precio: &6%price% monedas'
+      - '&7Precio: &6%price%'
       - ''
-      - '&cNo puedes pagar la oferta!'
+      - '&c¡No puedes pagar la oferta!'

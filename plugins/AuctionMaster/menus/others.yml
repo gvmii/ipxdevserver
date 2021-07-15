@@ -1,11 +1,11 @@
 others-menu-item: '32'
 others-menu-name: '&2Otros'
 others-menu-lore:
-  - '&8Categoria'
+  - '&8Categoría'
   - ''
   - '&7Todo lo que es'
-  - '&7Pujable y no'
-  - '&7en otras categorias.'
+  - '&7subastable y no'
+  - '&7en otras categorías.'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

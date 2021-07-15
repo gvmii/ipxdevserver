@@ -7,7 +7,7 @@ bid-history-item-lore:
     - '&7No se han realizado ofertas en'
     - '&7este articulo todavia.'
     - ''
-    - '&7Se el primero enpujar!'
+    - '&7Se el primero en pujar!'
   #The lore of the bid history item is dynamic when
   #it has bids on it, the structure below repeats itself
   #at every new bid, adding to the lore
@@ -16,12 +16,12 @@ bid-history-item-lore:
   #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
   bid-structure:
     - '&8&m--------------'
-    - '&7Puja: &6%bid-amount% monedas'
+    - '&7Puja: &6%bid-amount%'
     - '&7De: %bidder-display-name%'
     - '&b%when-bidded% Antes'
 
 #This is the message items with "Ending soon" will give when clicked
-too-late-to-open-now: '&cEs muy tarde para habrir esto ahora!'
+too-late-to-open-now: '&c¡Es muy tarde para abrir esto ahora!'
 
 #When the auction is claimed by the seller, the bid history
 #no longer updates %when-bidded% and the message below is added
@@ -43,7 +43,7 @@ submit-bid-item-name: '&6Enviar oferta'
 submit-bid-item-lore:
   no-previous-bids:
     - ''
-    - '&7Nueva oferta: &6%bid-amount% monedas'
+    - '&7Nueva oferta: &6%bid-amount%'
     - ''
     - '&eClick para ofertar!'
   #Use %bid-amount% for the amount the bid will have
@@ -51,10 +51,10 @@ submit-bid-item-lore:
   #Use %coins-to-pay% for the difference between previous bid and actual bid
   with-previous-bids:
     - ''
-    - '&7Nueva oferta: &6%bid-amount% monedas'
-    - '&7Previous Bid: &e%previous-bid% monedas'
+    - '&7Nueva oferta: &6%bid-amount%'
+    - '&7Previous Bid: &e%previous-bid%'
     - ''
-    - '&7Tu pagas: &6%coins-to-pay% monedas'
+    - '&7Tu pagas: &6%coins-to-pay%'
     - ''
     - '&eHaga click para ofertar!'
 
@@ -64,7 +64,7 @@ collect-bid-item-lore:
   #Use %coins% for the amount of coins the player could collect
   collect-coins:
     - ''
-    - '&7Tienes &6%coins% monedas'
+    - '&7Tienes &6%coins%'
     - '&7que recolectar de esta'
     - '&7subasta.'
     - ''
@@ -89,18 +89,18 @@ bid-jump: 20
 
 edit-bid-item: '266'
 #Use %current-bid% for the amount the player has selected to bid
-edit-bid-item-name: '&fImporte de la oferta: &6%current-bid% monedas'
+edit-bid-item-name: '&fImporte de la oferta: &6%current-bid%'
 #Use %minimum-bid% for the minimum amount you have to bid on the auction
 edit-bid-item-lore:
   - '&7Necesitas pujar al menos'
-  - '&6%minimum-bid% monedas &7para ponerte en la cima'
+  - '&6%minimum-bid% &7para ponerte en la cima'
   - '&7de esta puja.'
   - ''
   - '&7la &emejor oferta&7 de puja'
   - '&7finaliza por ganar el articulo.'
   - ''
   - '&7Si no ganas puedes'
-  - '&7reclamar tus monedas de vuelta.'
+  - '&7reclamar tu dinero de vuelta.'
   - ''
   - '&eHaz clic para editar la cantidad!'
 
@@ -111,7 +111,7 @@ edit-bid-item-lore:
 edit-bid-deny-message: '&cTu oferta es demasiado baja.'
 
 #Message for when the bid is placed successfully
-placed-bid-message: '&aSu oferta se realizó con éxito!'
+placed-bid-message: '&a¡Su oferta se realizó con éxito!'
 
 #Message for when you have 28 bids (reached the limit)
 max-bids-reached: '&cPuedes tener un máximo de 28 ofertas en diferentes subastas al mismo tiempo.'
@@ -128,13 +128,13 @@ outbid-message:
 #Use %bidder% for bidder's display name
 #Use %bid-amount% for the bidded amount
 #Use %bid-item% for the name of the item
-bid-message: '&6[Auction] %bidder% &fponer una oferta de &6%bid-amount% monedas &fen tu %bid-item%&f!'
+bid-message: '&6[Auction] %bidder% &fponer una oferta de &6%bid-amount% &fen tu %bid-item%&f!'
 
 not-enough-money-bid: '&cNo tienes suficiente dinero para pujar esta cantidad.'
 
 #This message is added to the lore of some items
 #to let the player know it is their own auction
-own-auction-message: '&aEsta es tu propia puja!'
+own-auction-message: '&a¡Esta es tu propia subasta!'
 
 #To prevent a bug where two players bid the same amount
 #on the same auction (that happening when 2 players have the same view auction menu opened
@@ -142,4 +142,4 @@ own-auction-message: '&aEsta es tu propia puja!'
 #is already in there
 bid-error-message:
   - '&c[Auction Error] &fMientras estabas pensando en ofertar hay alguien que ya lo hizo.'
-  - '&cRabriendo el menu...'
+  - '&cReabriendo el menu...'
