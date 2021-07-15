@@ -24,8 +24,8 @@ auction-item-lore:
     - '&7Vendedor: %display-name-seller%'
     - '&7Pujas: &a%bids% pujas'
     - ''
-    - '&7Mejor oferta: &6%top-bid% monedas'
-    - '&7Mejor ofertador: %top-bid-player%'
+    - '&7Mejor oferta: &6%top-bid%'
+    - '&7Mejor pujador: %top-bid-player%'
     - ''
     - '&7Acaba en: &e%duration%'
     - ''
@@ -42,7 +42,7 @@ auction-item-lore:
     - '&7Mejor oferta: &6%top-bid% monedas'
     - '&7Mejor ofertador: %top-bid-player%'
     - ''
-    - '&7Estado: &aEnded!'
+    - '&7Estado: &aAcabado!'
     - ''
     - '&eClick para inspeccionar!'
   #Use %display-name-seller% for display name of the seller
@@ -61,10 +61,10 @@ sort-auction-item-name: '&aClasificar'
 #The lore is dynamic so you can only edit
 #the names of the sortings
 sort-auction-item-sorting:
-  highest-bid: 'Oferta mas alta'
-  lowest-bid: 'Oferta mas baja'
+  highest-bid: 'Puja mas alta'
+  lowest-bid: 'Puja mas baja'
   ending-soon: 'Acabando en poco'
-  most-bids: 'Mayoría de las ofertas'
+  most-bids: 'Más pujas'
   click-to-switch: '&eHaz click para cambiar el orden!'
 
 search-auction-item: '323'
@@ -81,15 +81,15 @@ search-sign-message:
   - 'Escriba su'
   - 'busqueda'
 
-create-menu-name: '&8creador de pujas'
-manage-own-auctions-menu-name: '&8tu gestor de acciones'
+create-menu-name: '&8Creador de pujas'
+manage-own-auctions-menu-name: '&8Tu gestor de subastas'
 manage-menu-item: '418'
 manage-menu-item-name: '&aGestionar subastas'
 manage-menu-item-lore:
   #This lore is displayed when the player has no own auction
   manage-no-own-auctions:
     - '&7Pon tus propios articulos en'
-    - '&7pujas para otros jugadores'
+    - '&7subastas para otros jugadores'
     - '&7para comprar.'
     - ''
     - '&eClick para convertirte en rico!'
@@ -144,30 +144,30 @@ collect-all-item-lore:
 
 #The message sent when the player has a full inventory but tries to claim an item
 not-enough-inventory-space: '&cNo tienes espacio en el inventario!'
-collect-all-message: '&aHas reclamado todas tus pujas!'
+collect-all-message: '&aHas reclamado todas tus subastas!'
 
 create-auction-item:
   no-item-selected-material: '159:14'
-  no-item-selected-name: '&cCrear puja'
+  no-item-selected-name: '&cCrear subasta'
   no-item-selected-lore:
     - '&7No hay articulos seleccionados!'
     - ''
     - '&7Haz click en un articulo'
     - '&7en tu inventario para seleccionarlo'
-    - '&7para esta puja.'
+    - '&7para esta subasta.'
   item-selected-material: '159:13'
-  item-selected-name: '&aCrear puja'
+  item-selected-name: '&aCrear subasta'
   #Use %item-name% for item's name
   #Use %starting-bid% for starting bid amount
   #Use %duration% for duration of the auction
   #Use %fee% for the total fee
   item-selected-lore:
     - '&7Este articulo sera añadido a'
-    - '&7la casa de pujas para'
+    - '&7la casa de subastas para'
     - '&7que otros jugadores lo compren.'
     - ''
     - '&7Item: &f%item-name%'
-    - '&7duracion de la puja: &e%duration%'
+    - '&7Duración de la subasta: &e%duration%'
     - '&7Precio inicial: &6%starting-bid% coins'
     - ''
     - '&7Cuota de creación: &6%fee% coins'
@@ -188,10 +188,10 @@ starting-bid-item-lore:
   - ''
   - '&7Una vez que un jugador puja por tu'
   - '&7articulo, otro jugador'
-  - '&7tiene hasta que se acaba la puja'
+  - '&7tiene hasta que se acaba la subasta'
   - '&7para ofrecer una mejor oferta.'
   - ''
-  - '&7Suplemento: &6+%starting-fee% monedas &e(5%)'
+  - '&7Comisión: &6+%starting-fee% &e(5%)'
   - ''
   - '&eClick para editar!'
 #The message displayed on the sign when changing the starting bid
@@ -202,7 +202,7 @@ starting-bid-sign-message:
   - 'Precio inicial'
 #This message is shown when the starting bid
 #could not be registered
-starting-bid-sign-deny: '&cEse numero no es valido.'
+starting-bid-sign-deny: '&cEse número no es valido.'
 #Don't use the % symbol, just say how much in 100
 #you want the procent to be
 starting-bid-fee-procent: '5'
@@ -216,13 +216,13 @@ default-starting-duration: '2 h'
 #Don't use this in the upper option, these are avalable
 #just in auction messages, in the config please use the syntax from the upper comment
 second: 'Segundo'
-seconds: 'Segundo'
+seconds: 'Segundos'
 minute: 'Minuto'
 minutes: 'Minutos'
 hour: 'Hora'
 hours: 'Horas'
-day: 'Dia'
-days: 'Dias'
+day: 'Día'
+days: 'Días'
 
 #Time units but short version:
 short_second: 'sec'
@@ -237,9 +237,9 @@ extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
 #The fee for minutes is fixed (5 minutes - 59 minutes)
 extra-fee-minutes: '500'
 
-extra-fee-message: '&7Suplemento: &6'
+extra-fee-message: '&7Comisión: &6'
 
-duration-menu-name: '&8Duracion de la puja'
+duration-menu-name: '&8Duración de la puja'
 #This is the message used into duration selection menu
 #on the items with time on them
 duration-selection-lore: '&eHaz click para elegir!'
@@ -264,7 +264,7 @@ duration-item-lore:
 duration-select-item-name: '&aDuración personalizada'
 duration-select-item-lore:
   - '&7Especifica que tan larga quieres'
-  - '&7que sea la puja.'
+  - '&7que sea la subasta.'
   - ''
   - '&bClick derecho para los minutos!'
   - '&eClick izquierdo para las horas!'
@@ -278,11 +278,11 @@ duration-sign-message:
   - '%time-format%'
 
 #The message shown when the amount of hours/minutes entered is incorrect
-duration-sign-deny: '&cEse numero no es valido.'
+duration-sign-deny: '&cEse número no es valido.'
 
-not-enough-money-auction: '&cNo tienes suficiente dinero para crear esta puja.'
+not-enough-money-auction: '&cNo tienes suficiente dinero para crear esta subasta.'
 
-auction-confirm-menu-name: '&8Confirmar puja'
+auction-confirm-menu-name: '&8Confirmar subasta'
 
 auction-confirm-item-material: '159:13'
 auction-confirm-item-name: '&aConfirmar'
@@ -300,6 +300,6 @@ auction-cancel-item-material: '159:14'
 auction-cancel-item-name: '&cCancelar'
 auction-cancel-item-lore:
   - '&7Cancelar la creacion'
-  - '&7de la puja.'
+  - '&7de la subasta.'
 
-auction-created-message: '&aTu puja fue creada!'
+auction-created-message: '&a¡Tu subasta fue creada!'
