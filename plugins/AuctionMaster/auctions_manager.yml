@@ -39,7 +39,7 @@ auction-item-lore:
     - '&7Vendedor: %display-name-seller%'
     - '&7Pujas: &a%bids% bids'
     - ''
-    - '&7Mejor oferta: &6%top-bid% monedas'
+    - '&7Mejor oferta: &6%top-bid%'
     - '&7Mejor ofertador: %top-bid-player%'
     - ''
     - '&7Estado: &aAcabado!'
