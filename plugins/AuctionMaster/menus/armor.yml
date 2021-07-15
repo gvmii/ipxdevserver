@@ -1,0 +1,18 @@
+armor-menu-item: '311'
+armor-menu-name: '&bArmaduras'
+armor-menu-lore:
+  - '&8Categoría'
+  - ''
+  - '&7Ejemplos:'
+  - '&8■ &7cascos'
+  - '&8■ &7Pecheras'
+  - '&8■ &7Pantalones'
+  - '&8■ &7Botas'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lEjemplo &6&lArticulo'
+
+custom-item-ids:
+  - '2266'

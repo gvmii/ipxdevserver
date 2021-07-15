@@ -1,0 +1,107 @@
+use-bin-timer: true
+use-buy-it-now: true
+#This will make the buy-it-now auction to be the default one
+#in the create auction menu (use-buy-it-now needs to be enabled)
+use-buy-it-now-as-default: false
+#This will disable normal auctions
+use-only-buy-it-now: false
+
+buy-it-now-select-price:
+  item-id: '27'
+  #Use %price% for the item price
+  name: '&fPrecio del articulo: &6%price%'
+  lore:
+    - '&7Precio al que quieres'
+    - '&7Vender este articulo.'
+    - ''
+    - '&7Suplemento: &6+%fee% coins &e(1%)'
+    - ''
+    - '&e¡Click para editar!'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 1
+
+switch-button:
+  switch-to-auction:
+    material: '266'
+    name: '&aCambiar a subasta'
+    lore:
+      - '&7Con pujas tradicionales,'
+      - '&7varios compradores compiten por el'
+      - '&7artículo haciendo una oferta turno a turno.'
+      - ''
+      - '&e¡Click para cambiar!'
+  switch-to-bin:
+    material: 27
+    name: '&aCambiar a CPA'
+    lore:
+      - '&7Subastas de CPA son simples.'
+      - ''
+      - '&7Establece un precio, entonces un jugador puede'
+      - '&7Comprar el item a ese precio.'
+      - ''
+      - '&8(CPA significa comprar ahora)'
+      - ''
+      - '&e¡Click para cambiar!'
+
+buy-it-now-lore:
+  on-going:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7Compralo ahora: &6%starting-bid% coins'
+    - ''
+    - '&7Acaba en: &e%duration%'
+    - ''
+    - '&e¡Click para inspeccionar!'
+  expired:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7Compralo ahora: &6%price% coins'
+    - ''
+    - '&7Estado: &c¡Caducado!'
+    - ''
+    - '&e¡Click para inspeccionar!'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7Precio: &6%price%'
+    - ''
+    - '&7Comprado por: %buyer-display-name%'
+    - ''
+    - '&e¡Click para inspeccionar!'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&eHas comprado &f%item% &ede %seller-display-name% &epor &6%coins%&e!'
+
+#Seller notification for bought item
+bought-seller-notification: '&6[Auction] %bidder-display-name% &fha comprado tu  %item%&f por &6%price%&f!'
+
+sort-item:
+  material: '381'
+  name: '&aFiltro de CPA'
+  show-all: 'Mostrar todo'
+  bin-only: 'CPA solo'
+  auctions-only: 'Subastas solo'
+  click-to-switch: '&e¡Click para cambiar el filtro!'
+
+view-auction-buy-now-button:
+  name: '&6Comprar articulo ahora'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&7Precio: &6%price%'
+      - ''
+      - '&e¡Click para comprar!'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&7Precio: &6%price%'
+      - ''
+      - '&c¡No puedes pagar la oferta!'

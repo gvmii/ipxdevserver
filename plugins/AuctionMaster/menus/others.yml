@@ -1,0 +1,16 @@
+others-menu-item: '32'
+others-menu-name: '&2Otros'
+others-menu-lore:
+  - '&8Categoría'
+  - ''
+  - '&7Todo lo que es'
+  - '&7subastable y no'
+  - '&7en otras categorías.'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lEjemplo &6&larticulo'
+
+custom-item-ids:
+  - '2266'

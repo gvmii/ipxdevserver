@@ -1,0 +1,305 @@
+#This is the lore of every auctioned item in the menu:
+#Use %amount% for item's amount
+auction-item-lore:
+  #The lore for items with no bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  #Use %duration% for auction duration
+  auction-item-no-bid:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7La puja empieza en: &6%starting-bid% monedas'
+    - ''
+    - '&7Acaba en: &e%duration%'
+    - ''
+    - '&eClick para inspeccionar!'
+  #The lore for items with bids on them
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  #Use %duration% for auction duration
+  auction-item-with-bids:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7Pujas: &a%bids% pujas'
+    - ''
+    - '&7Mejor oferta: &6%top-bid%'
+    - '&7Mejor pujador: %top-bid-player%'
+    - ''
+    - '&7Acaba en: &e%duration%'
+    - ''
+    - '&eClick para inspeccionar!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %bids% for the amount of bids
+  #Use %top-bid% for the top bid
+  #Use %top-bid-player% for the top bid player
+  auction-item-ended:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7Pujas: &a%bids% bids'
+    - ''
+    - '&7Mejor oferta: &6%top-bid%'
+    - '&7Mejor ofertador: %top-bid-player%'
+    - ''
+    - '&7Estado: &aAcabado!'
+    - ''
+    - '&eClick para inspeccionar!'
+  #Use %display-name-seller% for display name of the seller
+  #Use %starting-bid% for the starting bid
+  auction-item-expired:
+    - '&8&m---------------------'
+    - '&7Vendedor: %display-name-seller%'
+    - '&7La puja empieza en: &6%starting-bid% monedas'
+    - ''
+    - '&7Estado: &cCaducado!'
+    - ''
+    - '&eClick para inspeccionar!'
+
+sort-auction-item: '154'
+sort-auction-item-name: '&aClasificar'
+#The lore is dynamic so you can only edit
+#the names of the sortings
+sort-auction-item-sorting:
+  highest-bid: 'Puja mas alta'
+  lowest-bid: 'Puja mas baja'
+  ending-soon: 'Acabando en poco'
+  most-bids: 'Más pujas'
+  click-to-switch: '&eHaz click para cambiar el orden!'
+
+search-auction-item: '323'
+search-auction-item-name: '&aBuscar'
+search-auction-item-lore:
+  - '&7Encuentra items por su nombre.'
+  - ''
+  - '&eClick para buscar!'
+
+#The message displayed on the sign when searching for an auction
+#There are only 3 rows because the first is where the user writes
+search-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Escriba su'
+  - 'busqueda'
+
+create-menu-name: '&8Creador de pujas'
+manage-own-auctions-menu-name: '&8Tu gestor de subastas'
+manage-menu-item: '418'
+manage-menu-item-name: '&aGestionar subastas'
+manage-menu-item-lore:
+  #This lore is displayed when the player has no own auction
+  manage-no-own-auctions:
+    - '&7Pon tus propios articulos en'
+    - '&7subastas para otros jugadores'
+    - '&7para comprar.'
+    - ''
+    - '&eClick para convertirte en rico!'
+  #This lore is displayed when the player has pending auctions
+  #Use %auctions% for the number of auctions the player has
+  #Use %bids% for the total number of bids on their auctions
+  #Use %coins% for the total number of coins on their auctions
+  manage-with-own-auctions:
+    - '&7Tu propia &e%auctions% puja &7in'
+    - '&7progreso que termino'
+    - '&7recientemente.'
+    - ''
+    - '&7Tus pujas tienen &a%bids% ofertas'
+    - '&7totalizando &6%coins% monedas&7.'
+    - ''
+    - '&eHaz clic para administrar!'
+
+preview-no-item-selected: '77'
+preview-no-item-selected-name: '&eClick en un item de tu inventario!'
+preview-no-item-selected-lore:
+  - '&7Seleccionalo para una puja'
+
+preview-selected-item-name: '&a&n&lPUJA PARA ARTICULO'
+preview-selected-item-take-back: '&eHaga click para recoger!'
+
+#This item appears when the player has 2 or more ended auctions
+collect-all-item: '380'
+#Use %auctions% for the number of auctions that could be collected
+#Use %coins% for the total amount of coins that could be collected
+#Use %items% for the expired items that could be collected
+collect-all-item-name: '&aReclamar todo'
+collect-all-item-lore:
+  own-auctions:
+    - '&8Pujas acabadas'
+    - ''
+    - '&7Tienes &e%auctions% &7pujas acabadas'
+    - '&7totalizando un valor de &6%coins% &7monedas'
+    - '&7y &e%items% &7articulos de pujas acabadas.'
+    - ''
+    - '&eHaga click para reclamar!'
+  own-bids:
+    - '&8Pujas acabadas'
+    - ''
+    - '&7Hay &e%auctions% &7Pujas acabadas'
+    - '&7en la cual ofreces.'
+    - ''
+    - '&7Tienes &6%coins% &7monedas para'
+    - '&7reclamar de subastas perdidas y'
+    - '&e%items% &7articulos de pujas ganadas.'
+    - ''
+    - '&eClick para reclamar!'
+
+#The message sent when the player has a full inventory but tries to claim an item
+not-enough-inventory-space: '&cNo tienes espacio en el inventario!'
+collect-all-message: '&aHas reclamado todas tus subastas!'
+
+create-auction-item:
+  no-item-selected-material: '159:14'
+  no-item-selected-name: '&cCrear subasta'
+  no-item-selected-lore:
+    - '&7No hay articulos seleccionados!'
+    - ''
+    - '&7Haz click en un articulo'
+    - '&7en tu inventario para seleccionarlo'
+    - '&7para esta subasta.'
+  item-selected-material: '159:13'
+  item-selected-name: '&aCrear subasta'
+  #Use %item-name% for item's name
+  #Use %starting-bid% for starting bid amount
+  #Use %duration% for duration of the auction
+  #Use %fee% for the total fee
+  item-selected-lore:
+    - '&7Este articulo sera añadido a'
+    - '&7la casa de subastas para'
+    - '&7que otros jugadores lo compren.'
+    - ''
+    - '&7Item: &f%item-name%'
+    - '&7Duración de la subasta: &e%duration%'
+    - '&7Precio inicial: &6%starting-bid% coins'
+    - ''
+    - '&7Cuota de creación: &6%fee% coins'
+    - ''
+    - '&eHaz click para enviar!'
+
+#The default starting bid
+default-starting-bid: '500'
+
+starting-bid-item: '266'
+#Use %starting-bid% for the starting bid amount
+#Use %starting-fee% for the starting bid fee
+starting-bid-item-name: '&fPrecio inicial: &6%starting-bid% coins'
+starting-bid-item-lore:
+  - '&7El precio mínimo de un jugador.'
+  - '&7puede ofrecer obtener su'
+  - '&7articulo.'
+  - ''
+  - '&7Una vez que un jugador puja por tu'
+  - '&7articulo, otro jugador'
+  - '&7tiene hasta que se acaba la subasta'
+  - '&7para ofrecer una mejor oferta.'
+  - ''
+  - '&7Comisión: &6+%starting-fee% &e(5%)'
+  - ''
+  - '&eClick para editar!'
+#The message displayed on the sign when changing the starting bid
+#There are only 3 rows because the first is where the user writes
+starting-bid-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Tu puja'
+  - 'Precio inicial'
+#This message is shown when the starting bid
+#could not be registered
+starting-bid-sign-deny: '&cEse número no es valido.'
+#Don't use the % symbol, just say how much in 100
+#you want the procent to be
+starting-bid-fee-procent: '5'
+
+#Use m for minute, h for hour, d for day with a space between the number and time unit
+#The maxim auction time is 7 days and you can't set the auction to seconds
+#If you enter the time incorectly it resets to 2 h
+default-starting-duration: '2 h'
+
+#Custom units for time
+#Don't use this in the upper option, these are avalable
+#just in auction messages, in the config please use the syntax from the upper comment
+second: 'Segundo'
+seconds: 'Segundos'
+minute: 'Minuto'
+minutes: 'Minutos'
+hour: 'Hora'
+hours: 'Horas'
+day: 'Día'
+days: 'Días'
+
+#Time units but short version:
+short_second: 'sec'
+short_minute: 'min'
+short_hour: 'h'
+short_day: 'd'
+
+
+#This is the formula that calculates the fee for hours
+#x=number of hours
+extra-fee-formula: '5*(x+3)+5*x*(Math.floor(x/9)+Math.floor(x/20))'
+#The fee for minutes is fixed (5 minutes - 59 minutes)
+extra-fee-minutes: '500'
+
+extra-fee-message: '&7Comisión: &6'
+
+duration-menu-name: '&8Duración de la puja'
+#This is the message used into duration selection menu
+#on the items with time on them
+duration-selection-lore: '&eHaz click para elegir!'
+
+duration-item: '347'
+#Use %auction-fee% for the duration fee of the auction
+#Use %auction-time% for the time of the auction
+duration-item-name: '&fDuracion: &e%auction-time%'
+duration-item-lore:
+  - '&7Cuanto tiempo los jugadores podran'
+  - '&7hacer ofertas para'
+  - ''
+  - '&7Nota: Las cosas ofrecidas automaticamente'
+  - '&7augmentaran la duracion de las'
+  - '&7pujas.'
+  - ''
+  - '&7Suplemento: &6+%auction-fee% monedas'
+  - ''
+  - '&eClick para editar!'
+
+#The clock inside the duration menu
+duration-select-item-name: '&aDuración personalizada'
+duration-select-item-lore:
+  - '&7Especifica que tan larga quieres'
+  - '&7que sea la subasta.'
+  - ''
+  - '&bClick derecho para los minutos!'
+  - '&eClick izquierdo para las horas!'
+
+#The message displayed on the sign when changing the duration of the bid
+#There are only 3 rows because the first is where the user writes
+#%time-format% is hours/minutes.
+duration-sign-message:
+  - '^^^^^^^^^^^^^^^'
+  - 'Puja'
+  - '%time-format%'
+
+#The message shown when the amount of hours/minutes entered is incorrect
+duration-sign-deny: '&cEse número no es valido.'
+
+not-enough-money-auction: '&cNo tienes suficiente dinero para crear esta subasta.'
+
+auction-confirm-menu-name: '&8Confirmar subasta'
+
+auction-confirm-item-material: '159:13'
+auction-confirm-item-name: '&aConfirmar'
+#Use %cost% for the total price the player
+#has to pay to create the auction
+auction-confirm-item-lore:
+  - '&7Coste de la puja: &6%cost% monedas'
+  - ''
+  - '&7Seguro que quieres'
+  - '&7crear la puja?'
+  - ''
+  - '&eClick para confirmar!'
+
+auction-cancel-item-material: '159:14'
+auction-cancel-item-name: '&cCancelar'
+auction-cancel-item-lore:
+  - '&7Cancelar la creacion'
+  - '&7de la subasta.'
+
+auction-created-message: '&a¡Tu subasta fue creada!'

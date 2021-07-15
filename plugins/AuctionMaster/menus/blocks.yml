@@ -1,0 +1,17 @@
+blocks-menu-item: '4'
+blocks-menu-name: '&eBloques'
+blocks-menu-lore:
+  - '&8Categoría'
+  - ''
+  - '&7Ejemplos:'
+  - '&8■ &7Tierra'
+  - '&8■ &7Piedra'
+  - '&8■ &7Cualquier bloque en realidad'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lEjemplo &6&larticulos'
+
+custom-item-ids:
+  - '2266'

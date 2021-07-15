@@ -1,0 +1,189 @@
+#Here you can edit messages from the admin menu
+
+npccreate-item-name: '&aCrear NPC'
+npccreate-item-lore:
+  - '&7Crear un &aMaestro de pujas NPC'
+  - '&7en tu localicalizacion.'
+  - ''
+  - '&7Despues de que el NPC sea creado '
+  - '&7podras usar comandos básicos de Citizens'
+  - '&7en el.'
+  - ''
+  - '&7necesitas un &aCitizens'
+  - '&7para trabajar correctamente en esta opcion!'
+
+npc-debug-item-name: '&aDepurar NPCs'
+npc-debug-item-lore:
+  - '&7Si tienes varios NPCs'
+  - '&7y no tienen su titulo'
+  - '&7alineado con su entidad'
+  - '&7haz click a este item.'
+
+manage-ended-auctions-item-name: '&aGestionar subastas finalizadas'
+manage-ended-auctions-item-lore:
+  - '&7Gestionar subastas finalizadas o caducadas'
+  - '&7Al eliminarlas por la fuerza.'
+  - ''
+  - '&7puedes borrar la puja de dos maneras:'
+  - ''
+  - '&7mandando los items y el dinero'
+  - '&7a través de &aEntrega&7.'
+  - ''
+  - '&7borrando completamente la puja,'
+  - '&7los jugadores perderan sus items y dinero.'
+
+manage-auctions-item-name: '&aGestionar subastas'
+manage-auctions-item-lore:
+  - '&7Gestionar subastas que no terminan.'
+  - '&7Puedes agregar tiempo a una subasta, eliminarla,'
+  - '&7editar su precio, finalizarla, quitar ofertas.'
+  - ''
+  - '&7También puedes duplicar el subastado.'
+  - '&7artículo y colóquarlo en su inventario.'
+
+delivery-item-name: '&aEnviar entregas'
+delivery-item-lore:
+  - '&7mandar una &aEntrega&7 a'
+  - '&7un jugador. tambien puedes borrar'
+  - '&7entregas de jugadores usando'
+  - '&7comandos. &a/ahadmin delivery'
+
+help-item-name: '&aayuda de comandos'
+help-item-lore:
+  - '&7Usa &a/ahadmin help&7 o'
+  - '&7click click a este objeto para mostrar'
+  - '&7una lista de comandos de admins'
+  - '&7que podras usar.'
+
+delete-auction-item:
+  with-delivery-name: '&aBorrar puja con entrega'
+  with-delivery-lore:
+    - '&7Click para borrar la puja'
+    - '&7y borrar todos los datos sobre ella'
+    - '&7pero mandando todos los no reclamados'
+    - '&7monedas ofertadas y items via &aEntregas&7.'
+  without-delivery-name: '&aBorrar puja'
+  without-delivery-lore:
+    - '&7Click para borrar la puja'
+    - '&7y borrar todos los datos sobre ella.'
+    - ''
+    - '&cATTENCION!'
+    - '&7Todos los jugadores involucrados en esta'
+    - '&7puja perderan sus items y monedas ofertados!'
+
+#This is the manage bids item for auctions that are ended
+manage-bids-item-name: '&aEliminar ofertas no reclamadas'
+manage-bids-item-lore:
+  - '&7Desde aquí puedes con fuerza'
+  - '&7eliminar las ofertas que no se reclaman.'
+  - ''
+  - '&7Puedes borrarlas dando'
+  - '&7las monedas/items al creador de la puja'
+  - '&7via entrega o borrandolos.'
+
+#This is the manage bids item for auctions that are not ended
+manage-bids-item-name2: '&aEliminar ofertas'
+manage-bids-item-lore2:
+  - '&7Desde aquí puedes con fuerza'
+  - '&7eliminar ofertas de pujas.'
+  - ''
+  - '&7Puedes borrarlas dando'
+  - '&7las monedas al creador de la puja'
+  - '&7via entrega o borrandolos.'
+
+get-item-copy-name: '&aObtener copia del artículo'
+get-item-copy-lore:
+  - '&7Copiar en tu inventario'
+  - '&7el item en poder de esta subasta.'
+
+force-end-auction-name: '&aEnd Auction'
+force-end-auction-lore:
+  - '&7Click to forcefully end'
+  - '&7an auction by setting it''s'
+  - '&7ending date to the'
+  - '&7current time.'
+  - ''
+  - '&cATENTION!'
+  - '&7This is not reversible!'
+
+edit-duration-item-name: '&aEdit Auction''s Duration'
+edit-duration-item-lore:
+  - '&7Click to modify the auction''s'
+  - '&7duration by setting or'
+  - '&7adding/substracting time.'
+  - ''
+  - '&7All modifications are in minutes'
+  - '&7for more accuracy, if you want'
+  - '&7hours/days just do the math...'
+  - ''
+  - '&eLeft Click to set Duration'
+  - '&bRight Click to add/substract'
+
+selected-player-item-name: '&aSelected Player'
+selected-player-item-lore:
+  - '&7Click to select a player for whom'
+  - '&7you will apply the options below.'
+  - ''
+  - '&7Selected Player: &a%player%'
+  - ''
+  - '&7Attention! The delivery will be sent'
+  - '&7even if the username entered'
+  - '&7does not exist!'
+  - ''
+  - '&7Current Delivery Data:'
+  - '&7Delivery Items: &e%items-count%'
+  - '&7Delivery Coins: &e%coins%'
+
+delivery-send-item-name: '&aSend Delivery'
+delivery-send-item-lore:
+  - '&7Click to config a'
+  - '&7delivery and send it to'
+  - '&7the selected player.'
+
+delivery-set-item-name: '&aSet Delivery'
+delivery-set-item-lore:
+  - '&7Click to config a'
+  - '&7delivery that will overwrite'
+  - '&7any existent delivery of'
+  - '&7the selected player.'
+
+
+delivery-remove-item-name: '&aRemove Delivery'
+delivery-remove-item-lore:
+  - '&7Click to remove all'
+  - '&7items and coins from'
+  - '&7selected player''s delivery.'
+
+delivery-item-clone-name: '&aGet Delivery Items'
+delivery-item-clone-lore:
+  - '&7Get the items from player''s delivery'
+  - '&7in your inventory. If you don''t have'
+  - '&7enough space, the remaining items will'
+  - '&7be dropped on the ground.'
+
+no-selected-player-message: '&cYou can''t click this until you have a player selected!'
+
+no-delivery-to-send: '&cI have nothing to send, select some coins and/or put some items in the free slots!'
+no-delivery-to-set: '&cI have nothing to set, if you want to remove their delivery, use the right setting.'
+no-delivery-to-work-with: '&cThe selected player has no delivery so this action won''t work!'
+
+delivery-coins-item-name: '&aDelivery Coins'
+delivery-coins-item-lore:
+  - '&7Current Coins: &6%coins% coins'
+  - ''
+  - '&7Click to edit the amount'
+  - '&7of coins this delivery will'
+  - '&7contain.'
+
+confirm-action-item-name: '&aDone!'
+confirm-action-item-lore:
+  - '&7If you think you are'
+  - '&7done and want to complete'
+  - '&7this action, click here!'
+
+cancel-action-item-name: '&cCancel'
+cancel-action-item-lore:
+  - '&7Cancel this action and'
+  - '&7go back to the'
+  - '&7previous menu.'
+
