@@ -1,0 +1,29 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1626892291553
+  login: 1626889297815
+money: '100'
+last-account-name: Ixogamer
+logoutlocation:
+  world: e884e03c-27ce-446b-9ae4-117d7bfdeabd
+  x: -160.43248173075702
+  y: 1.0
+  z: -215.69999998807907
+  yaw: -145.34593200683594
+  pitch: 17.84977149963379
